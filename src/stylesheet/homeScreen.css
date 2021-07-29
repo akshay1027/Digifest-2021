@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.title {
+    color: #f3f0f0;
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0 0 4px #fff;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    font-size: 54px;
+    text-align: center;
+}
+
+.sub-title {
+    color: #e2e2e2;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.date-event {
+    color: #f3f0f0;
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0 0 1px #fff;
+    font-weight: 700;
+    letter-spacing: px;
+    font-size: 21px;
+    text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+    .title {
+        font-size: 40px;
+    }
+    .sub-title {
+        font-size: 20px;
+        padding: 0px 20px;
+        letter-spacing: 2.5px;
+    }
+    .date-event {
+        letter-spacing: 2.6px;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* ==========================  Events  ===========================  */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+  }
+  
+  .card {
+    color: #f3f0f0;
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: 1.5px;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 30px;
+    width: 40%;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+  }
+
+  .card-body {
+    margin-top: 25px;
+    text-align: center;
+    color: #f3f0f0;
+    font-family: 'Archivo', sans-serif;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: all 1s;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .card,
+    .card2 {
+     width: 90%;
+    }
+  }
+  
+  @media (max-width: 777px) {
+    .row {
+      padding: 20px 0px;
+    }
+  }
+
+  .footer {
+    color: #f3f0f0;
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0 0 2px #fff;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .footer-links {
+    color: #f3f0f0;
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0 0 2px #fff;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+    font-size: 18px;
+    text-align: center;
+  }
